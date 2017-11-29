@@ -122,7 +122,7 @@ public class DeviceBatteryModule extends ReactContextBaseJavaModule
   }
   @Override
   public void onHostPause() {
-    maybeUnregisterReceiver();
+    // maybeUnregisterReceiver();
     }
   @Override
   public void onHostDestroy() {
